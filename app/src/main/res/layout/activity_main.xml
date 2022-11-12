@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/btn_bg"
+        android:paddingLeft="50px"
+        android:paddingTop="30px"
+        android:paddingRight="50px"
+        android:paddingBottom="30px"
+        android:text="Tap to scan"
+        android:textColor="#ffffff"
+        android:onClick="scan">
+    </Button>
+
+    <ImageView
+        android:id="@+id/text_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text1"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="120dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qr"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="235dp">
+    </ImageView>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_lt"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="220dp">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vector_lb"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="410dp">
+        </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rt"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="220dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector_rb"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="410dp">
+    </ImageView>
+
+
+
+</RelativeLayout>
